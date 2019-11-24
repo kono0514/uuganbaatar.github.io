@@ -204,6 +204,7 @@ export default {
     background-position: center center;
     border: 1px solid #ebebeb;
     margin: 5px;
+    cursor: pointer;
   }
 
   .box {
