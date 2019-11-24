@@ -65,9 +65,8 @@ export default {
 
   main {
     background: #353577;
-    height: 100%;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
+    height: 100vh;
+    height: -webkit-fill-available;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,7 +76,7 @@ export default {
   }
 
   .me {
-    flex: 1;
+    flex: 1 1 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
