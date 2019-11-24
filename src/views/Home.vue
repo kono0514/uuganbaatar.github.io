@@ -16,12 +16,6 @@
         </li>
         <li>
           <a v-scroll-to="'#contact'">
-            {{ $t('cv') }}
-            <font-awesome-icon icon="angle-down" />
-          </a>
-        </li>
-        <li>
-          <a v-scroll-to="'#contact'">
             {{ $t('contact') }}
             <font-awesome-icon icon="angle-down" />
           </a>
