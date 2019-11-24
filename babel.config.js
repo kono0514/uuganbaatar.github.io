@@ -1,8 +1,9 @@
 module.exports = {
   presets: [
-    '@vue/cli-plugin-babel/preset',
+    ['@vue/cli-plugin-babel/preset', {
+      targets: {
+        ie: 11,
+      },
+    }],
   ],
-  targets: {
-    ie: 11,
-  },
 };
