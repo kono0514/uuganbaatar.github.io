@@ -1,0 +1,15 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+html, body, #app {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background: #222222;
+
+  &.scroll-off {
+    overflow: hidden;
+  }
+}
