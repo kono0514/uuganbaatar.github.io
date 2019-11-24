@@ -41,7 +41,7 @@
                 v-for="(thumb, thumbIndex) in galleryThumbnails"
                 :key="thumbIndex"
                 @click="currentIndex = thumbIndex"
-                :style="{ backgroundImage: 'url(' + thumb + ')', width: '300px', height: '200px' }"
+                :style="{ backgroundImage: 'url(' + thumb + ')', width: '338px', height: '190px' }"
               ></div>
               <div style="clear: both;"></div>
             </template>
