@@ -17,10 +17,22 @@ module.exports = [
     },
     thumbnail: require('@/assets/pr/ttv.jpg'),
     gallery: [
-      require('@/assets/pr/ttvss1.jpg'),
-      require('@/assets/pr/ttvss2.jpg'),
-      require('@/assets/pr/ttvss3.jpg'),
-      require('@/assets/pr/ttvss4.jpg'),
+      {
+        thumb: require('@/assets/pr/ttvss1_thumb.jpg'),
+        image: require('@/assets/pr/ttvss1.jpg'),
+      },
+      {
+        thumb: require('@/assets/pr/ttvss2_thumb.jpg'),
+        image: require('@/assets/pr/ttvss2.jpg'),
+      },
+      {
+        thumb: require('@/assets/pr/ttvss3_thumb.jpg'),
+        image: require('@/assets/pr/ttvss3.jpg'),
+      },
+      {
+        thumb: require('@/assets/pr/ttvss4_thumb.jpg'),
+        image: require('@/assets/pr/ttvss4.jpg'),
+      },
     ],
     links: [
       'https://ttvstream.com',
@@ -66,9 +78,12 @@ module.exports = [
       en: 'Smart Karaoke Solution. Worked as a Full Stack Developer on this.',
       mn: 'Смарт Караоке Систем',
     },
-    thumbnail: require('@/assets/pr/bolorthumb.png'),
+    thumbnail: require('@/assets/pr/bolor_thumb.png'),
     gallery: [
-      require('@/assets/pr/bolor.png'),
+      {
+        thumb: require('@/assets/pr/bolor_thumb.png'),
+        image: require('@/assets/pr/bolor.png'),
+      },
     ],
     links: [],
     sections: [{
@@ -107,7 +122,10 @@ module.exports = [
     },
     thumbnail: require('@/assets/pr/ff.png'),
     gallery: [
-      require('@/assets/pr/ff.png'),
+      {
+        thumb: require('@/assets/pr/ff.png'),
+        image: require('@/assets/pr/ff.png'),
+      },
     ],
     links: [
       'https://github.com/kono0514/node-rtsp-to-hls-server',
@@ -141,9 +159,18 @@ module.exports = [
     },
     thumbnail: require('@/assets/pr/unicorn.jpg'),
     gallery: [
-      require('@/assets/pr/uniss1.png'),
-      require('@/assets/pr/uniss2.png'),
-      require('@/assets/pr/uniss3.png'),
+      {
+        thumb: require('@/assets/pr/uniss1_thumb.jpg'),
+        image: require('@/assets/pr/uniss1.png'),
+      },
+      {
+        thumb: require('@/assets/pr/uniss2_thumb.jpg'),
+        image: require('@/assets/pr/uniss2.png'),
+      },
+      {
+        thumb: require('@/assets/pr/uniss3_thumb.jpg'),
+        image: require('@/assets/pr/uniss3.png'),
+      },
     ],
     links: [
       'https://github.com/kono0514/unicorntime/',
@@ -181,8 +208,14 @@ module.exports = [
     },
     thumbnail: require('@/assets/pr/zip1.jpg'),
     gallery: [
-      require('@/assets/pr/zip1.jpg'),
-      require('@/assets/pr/zip2.jpg'),
+      {
+        thumb: require('@/assets/pr/zip1_thumb.jpg'),
+        image: require('@/assets/pr/zip1.jpg'),
+      },
+      {
+        thumb: require('@/assets/pr/zip2_thumb.jpg'),
+        image: require('@/assets/pr/zip2.jpg'),
+      },
     ],
     links: [
       {

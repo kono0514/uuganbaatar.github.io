@@ -32,16 +32,16 @@
 
               <portal to="rootGallery">
                 <gallery
-                  :images="project.gallery"
+                  :images="galleryImages"
                   :index="currentIndex"
                   @close="currentIndex = null"></gallery>
               </portal>
               <div
                 class="image"
-                v-for="(image, imageIndex) in project.gallery"
-                :key="imageIndex"
-                @click="currentIndex = imageIndex"
-                :style="{ backgroundImage: 'url(' + image + ')', width: '300px', height: '200px' }"
+                v-for="(thumb, thumbIndex) in galleryThumbnails"
+                :key="thumbIndex"
+                @click="currentIndex = thumbIndex"
+                :style="{ backgroundImage: 'url(' + thumb + ')', width: '300px', height: '200px' }"
               ></div>
               <div style="clear: both;"></div>
             </template>
@@ -115,6 +115,24 @@ export default {
     },
     backgroundGradient() {
       return `linear-gradient(315deg, ${this.project.style.colorPrimary} 0, ${this.project.style.colorSecondary} 100%)`;
+    },
+    galleryThumbnails() {
+      let thumbnails = [];
+
+      if (this.project && this.project.gallery) {
+        thumbnails = this.project.gallery.map(item => item.thumb);
+      }
+
+      return thumbnails;
+    },
+    galleryImages() {
+      let images = [];
+
+      if (this.project && this.project.gallery) {
+        images = this.project.gallery.map(item => item.image);
+      }
+
+      return images;
     },
   },
   methods: {
