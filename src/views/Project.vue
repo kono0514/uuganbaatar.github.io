@@ -139,9 +139,6 @@ export default {
     goBack() {
       this.$router.back();
     },
-    finished() {
-      console.log('ya');
-    },
   },
   created() {
     const project = projectData.find(i => i.identifier === this.projectIdentifier);
