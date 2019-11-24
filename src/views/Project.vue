@@ -6,7 +6,8 @@
     <div class="project py-5"
       :style="{background: backgroundGradient}">
       <div class="container mb-5 text-light">
-        <div class="close-projectttv text-center mb-4"
+        <div class="text-center mb-4"
+          style="cursor: pointer"
           @click="goBack">
           <font-awesome-icon icon="arrow-circle-down" size="3x" />
         </div>
