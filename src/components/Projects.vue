@@ -19,7 +19,7 @@
               <div class="c4-fade-right project-izmir-title">
                 <h2>{{ project.name }}</h2>
               </div>
-              <div class="c4-fade-left">
+              <div class="c4-fade-left" style="width: 100%;">
                 <b-badge
                   variant="light"
                   class="mr-1"
