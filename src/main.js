@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
 import vueHeadful from 'vue-headful';
-import vueSmoothScroll from 'vue2-smooth-scroll';
+import VueScrollTo from 'vue-scrollto';
 import PortalVue from 'portal-vue';
 
 import BootstrapVue from 'bootstrap-vue';
@@ -28,7 +28,7 @@ library.add(faAngleDown, faFile, faPhone, faEnvelopeOpen, faArrowCircleDown, faG
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.component('vue-headful', vueHeadful);
 Vue.use(BootstrapVue);
-Vue.use(vueSmoothScroll);
+Vue.use(VueScrollTo);
 Vue.use(PortalVue);
 
 Vue.use(VueI18n);

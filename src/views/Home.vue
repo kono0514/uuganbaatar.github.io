@@ -9,19 +9,19 @@
       </div>
       <ul class="header-menu">
         <li>
-          <a href="#portfolio" v-smooth-scroll>
+          <a v-scroll-to="'#portfolio'">
             {{ $t('portfolio') }}
             <font-awesome-icon icon="angle-down" />
           </a>
         </li>
         <li>
-          <a href="#contact" v-smooth-scroll>
+          <a v-scroll-to="'#contact'">
             {{ $t('cv') }}
             <font-awesome-icon icon="angle-down" />
           </a>
         </li>
         <li>
-          <a href="#contact" v-smooth-scroll>
+          <a v-scroll-to="'#contact'">
             {{ $t('contact') }}
             <font-awesome-icon icon="angle-down" />
           </a>
@@ -128,6 +128,7 @@ export default {
     padding: 26px 40px;
     outline: none;
     text-shadow: 0px 0px 2px #000000;
+    cursor: pointer;
   }
 
   .header-menu li a svg {
@@ -141,6 +142,7 @@ export default {
 
   .header-menu li:hover a {
     transform: translateY(-10px);
+    color: #f4f4f4;
   }
   .header-menu li:hover a svg {
     transform: translate(-50%, 15px);
