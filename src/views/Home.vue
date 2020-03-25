@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <vue-headful
+    <p style="color: #FEFEFE;">uuganbaatarbaynsuren2016@gmail.com</p>
+    <!-- <vue-headful
       :title="$t('title')" />
     <main id="particles-js">
       <div class="me">
@@ -28,22 +29,22 @@
       <contact id="contact"></contact>
     </b-container>
 
-    <router-view></router-view>
+    <router-view></router-view> -->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import 'particles.js';
-import Contact from '@/components/Contact.vue';
-import Projects from '@/components/Projects.vue';
+// import Contact from '@/components/Contact.vue';
+// import Projects from '@/components/Projects.vue';
 
 export default {
   name: 'home',
-  components: {
-    Projects,
-    Contact,
-  },
+  // components: {
+  //   Projects,
+  //   Contact,
+  // },
   mounted() {
     window.particlesJS.load('particles-js', 'particles.json');
   },
